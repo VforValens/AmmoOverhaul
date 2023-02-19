@@ -1,0 +1,18 @@
+{
+    "enabled": false,
+
+    "rifles":
+    {
+        "mm127x55": 1
+    },
+
+    "pistol":
+    {
+        "mm9x18": 1
+    },
+
+    "shotguns":
+    {
+        "mm12x70": 1
+    }
+}
