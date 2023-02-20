@@ -1,0 +1,57 @@
+{
+"enabled": false,
+
+"rifles":
+    {
+        "armorDamage":
+        {
+            "mm127x55": 1
+        },
+
+        "damage":
+        {
+            "mm127x55": 1
+        },
+        
+        "penetration":
+        {
+            "mm127x55": 1
+        }   
+    },
+
+"pistol":
+    {
+        "armorDamage":
+        {
+            "mm9x18": 1
+        },
+
+        "damage":
+        {
+            "mm9x18": 1
+        },
+        
+        "penetration":
+        {
+            "mm9x18": 1
+        }
+    },
+
+"shotguns":
+    {
+        "armorDamage":
+        {
+            "gauge12": 1
+        },
+
+        "damage":
+        {
+            "gauge12": 1
+        },
+        
+        "penetration":
+        {
+            "gauge12": 1
+        }
+    }
+}

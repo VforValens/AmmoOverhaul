@@ -6,13 +6,37 @@ export interface AmmoConfig {
 }
 
 export interface Rifles {
-    mm127x55: number;
+    armorDamage: ArmorDamage;
+    damage: Damage;
+    penetration: Penetration;
 }
 
 export interface Pistol {
-    mm9x18: number;
+    armorDamage: ArmorDamage;
+    damage: Damage;
+    penetration: Penetration;
 }
 
 export interface Shotguns {
-    mm12x70: number;
+    armorDamage: ArmorDamage;
+    damage: Damage;
+    penetration: Penetration;
+}
+
+export interface ArmorDamage {
+    pm9x18: number;
+    mm127x55: number;
+    gauge12: number;
+}
+
+export interface Damage {
+    pm9x18: number;
+    mm127x55: number;
+    gauge12: number;
+}
+
+export interface Penetration {
+    pm9x18: number;
+    mm127x55: number;
+    gauge12: number;
 }

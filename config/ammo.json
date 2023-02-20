@@ -1,18 +1,17 @@
 {
-    "enabled": false,
-
-    "rifles":
-    {
-        "mm127x55": 1
-    },
-
-    "pistol":
-    {
-        "mm9x18": 1
-    },
-
-    "shotguns":
-    {
-        "mm12x70": 1
-    }
+    "ammo": [
+        {
+            "ammoType": "Ammo9x39",
+            "armorDamage": 22,
+            "damage": 44,
+            "PenetrationPower": 33
+        },
+        {
+            "enum": "AmmoTypes"
+            "ammoType": "Ammo1143x23ACP",
+            "armorDamage": 11,
+            "damage": 4444,
+            "PenetrationPower": 55
+        }
+    ]
 }
